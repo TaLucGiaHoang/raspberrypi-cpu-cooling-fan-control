@@ -1,5 +1,15 @@
 # raspberrypi-cpu-cooling-fan-control
 
+## Clone repository
+```
+$ cd ~/Desktop
+$ git clone https://github.com/TaLucGiaHoang/raspberrypi-cpu-cooling-fan-control.git
+$ cd raspberrypi-cpu-cooling-fan-control
+```
+
+## Connection
+![Raspberry Pi and fan controller Connection](cpu-fan-controller-connection.png)
+
 ## To read raspberry pi cpu tempreture:
 ```
 $ cat /sys/class/thermal/thermal_zone0/temp

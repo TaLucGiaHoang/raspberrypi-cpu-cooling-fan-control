@@ -1,4 +1,4 @@
-# raspberrypi-cpu-cooling-fan-control
+# Raspberry Pi CPU Cooling Fan Control
 
 ## Clone repository
 ```

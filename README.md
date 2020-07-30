@@ -16,6 +16,19 @@ $ cd raspberrypi-cpu-cooling-fan-control
   * Transistor NPN 2N2222
   * Diode 1N4007 (1A 1000V)
 
+## To run main program
+```
+$ python fan_ctrl.py
+```
+- Use calib_fan.py to test and choose suitable values for `tempSteps`, `speedSteps` variables
+
+## To test and choose suitable fan speed
+```
+$ python calib_fan.py
+Fan Speed: 0
+Fan Speed: 100
+Fan Speed: 40
+```
 
 ## To read tempreture of raspberry pi CPU
 ```
@@ -27,7 +40,7 @@ $ cat /sys/class/thermal/thermal_zone0/temp
 
 Then add below line and save:
 ```
-@reboot python <raspberrypi-cpu-cooling-fan-control folder>/fan_ctrl.py
+@reboot python ~/Desktop/raspberrypi-cpu-cooling-fan-control/fan_ctrl.py
 ```
 
 ## My demonstration
